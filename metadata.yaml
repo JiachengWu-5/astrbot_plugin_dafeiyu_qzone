@@ -1,0 +1,16 @@
+name: astrbot_plugin_dafeiyu_qzone
+display_name: 大肥鱼QQ空间
+short_desc: 大肥鱼定制 QQ 空间插件：智能配图、题材反馈、自动回复
+desc: 基于 Zhalslar/astrbot_plugin_qzone 的大肥鱼定制版。支持智能配图（封面优先）、B站/小红书/网易云来源链接、题材权重 0/1/2 评论反馈、非评分评论自动回复、网易云热门歌单、混合触发评论扫描。本地缓存目录可配置。
+help: Fork of Zhalslar/astrbot_plugin_qzone；Grok Bot (Ideas Implementation) 修改。评论 0=喜欢 1=能接受 2=不喜欢。
+version: 3.2.0
+author: Grok Bot (Ideas Implementation)
+repo: https://github.com/JiachengWu-5/astrbot_plugin_dafeiyu_qzone
+support_platforms:
+  - aiocqhttp
+tags:
+  - qzone
+  - qq
+  - dafeiyu
+  - bilibili
+  - xiaohongshu
